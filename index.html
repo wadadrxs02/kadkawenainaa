@@ -33,20 +33,8 @@
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <!--component-css-->
-
-
     <link rel="icon" href="images/icons/rings.png">
     <style>
-        .modal {
-            position: fixed;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            background: #eae0d8;
-            text-align: center;
-            padding: 2em;
-        }
-
         .hide {
             display: none;
         }
@@ -68,34 +56,6 @@
         <div class="modal-container" id="modal-covid" onclick="hideModal();" onscroll="hideModal();">
         </div>
     </div>
-
-
-
-    <!--============END TIMER================-->
-    <!-- toolbar bottom -->
-    <footer class="toolbar">
-        <ul class="toolbar-bottom toolbar-wrap">
-            <li class="toolbar-item">
-                <button type="button" class="toolbar-link text-light" data-toggle="modal" data-target="#ModalRSVP">
-                    <i class="fas fa-envelope-open fa-2x"></i>
-                    RSVP
-                </button>
-            </li>
-            <li class="toolbar-item">
-                <button type="button" class="toolbar-link text-light" data-toggle="modal" data-target="#ModalContact">
-                    <i class="fas fa-phone fa-2x"></i>
-                    CONTACT
-                </button>
-            </li>
-            <li class="toolbar-item">
-                <button type="button" class="toolbar-link text-light" data-toggle="modal" data-target="#ModalMap">
-                    <i class="fas fa-map-marked-alt fa-2x"></i>
-                    LOCATION
-                </button>
-            </li>
-        </ul>
-    </footer>
-    <!-- end toolbar bottom -->
     <!--=========================================START MODAL RSVP==================================================-->
 
     <div class="modal fade" id="ModalRSVP" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
@@ -266,6 +226,31 @@
     </div>
     <!--================================END Modal Map===========================================================-->
 
+    <!--============END TIMER================-->
+    <!-- toolbar bottom -->
+    <footer class="toolbar">
+        <ul class="toolbar-bottom toolbar-wrap">
+            <li class="toolbar-item">
+                <button type="button" class="toolbar-link text-light" data-toggle="modal" data-target="#ModalRSVP">
+                    <i class="fas fa-envelope-open fa-2x"></i>
+                    RSVP
+                </button>
+            </li>
+            <li class="toolbar-item">
+                <button type="button" class="toolbar-link text-light" data-toggle="modal" data-target="#ModalContact">
+                    <i class="fas fa-phone fa-2x"></i>
+                    CONTACT
+                </button>
+            </li>
+            <li class="toolbar-item">
+                <button type="button" class="toolbar-link text-light" data-toggle="modal" data-target="#ModalMap">
+                    <i class="fas fa-map-marked-alt fa-2x"></i>
+                    LOCATION
+                </button>
+            </li>
+        </ul>
+    </footer>
+    <!-- end toolbar bottom -->
 </body>
 <!-- Optional JavaScript -->
 <script src="https://kit.fontawesome.com/a165d3b8d1.js" crossorigin="anonymous"></script>
