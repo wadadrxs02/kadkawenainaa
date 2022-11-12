@@ -42,10 +42,9 @@
 } */
 
 .toolbar-bottom {
-  float: bottom;
   position: fixed;
   background: #212529;
-  height: 8vh;
+  height: 68px;
   bottom: 0vh;
   left: 0;
   right: 0;
@@ -58,7 +57,7 @@
 
 .toolbar-bottom::before {
   content: "" !important;
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   right: auto;
