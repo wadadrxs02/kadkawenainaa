@@ -35,11 +35,17 @@
 /* toolbar bottom */
 footer {
   position: fixed;
+  overflow: hidden;
+  bottom: 0;
+  width: 100%;
 }
 
 @media screen and (max-width: 656px) {
   footer {
-    position: fixed;
+    position: static;
+    overflow: hidden;
+    bottom: 0;
+    width: 100%;
   }
   .toolbar-bottom {
     position: fixed;
