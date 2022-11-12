@@ -46,11 +46,12 @@ footer {
   .toolbar-bottom {
     position: fixed;
     background: #212529;
-    bottom: 0;
+    height: 8vh;
+    bottom: 0vh;
     left: 0;
     right: 0;
     width: 100%;
-    height: 68px;
+
     border: 0;
     z-index: 600;
     margin-bottom: 0;
