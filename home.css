@@ -419,10 +419,22 @@
 html {
   height: -webkit-fill-available;
 }
+
 body {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  height: 100vh;
+  height: -webkit-fill-available;
   font-family: "Quicksand", sans-serif !important;
   background-color: white;
+}
+main {
+  flex: 1;
+  overflow: scroll;
   height: 100vh;
+  width: 100vw;
+  position: relative;
   height: -webkit-fill-available;
 }
 .btn-primary {
