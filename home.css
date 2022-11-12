@@ -42,14 +42,9 @@
 }
 
 @media screen and (max-width: 656px) {
-  .toolbar {
-    position: static;
-    overflow: hidden;
-    bottom: 0;
-    width: 100%;
-    float: bottom;
-  }
   .toolbar-bottom {
+    float: bottom;
+
     position: fixed;
     background: #212529;
     height: 8vh;
