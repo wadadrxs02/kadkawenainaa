@@ -416,9 +416,14 @@
   background-color: white;
   text-align: center;
 }
+html {
+  height: -webkit-fill-available;
+}
 body {
   font-family: "Quicksand", sans-serif !important;
   background-color: white;
+  height: 100vh;
+  height: -webkit-fill-available;
 }
 .btn-primary {
   background-color: #a19d96 !important;
