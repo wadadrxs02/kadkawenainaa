@@ -13,6 +13,10 @@
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <style>
+        body {
+            margin: 0;
+        }
+
         .navbar {
             overflow: hidden;
             background-color: #333;
@@ -26,7 +30,7 @@
             display: block;
             color: #f2f2f2;
             text-align: center;
-            /* padding: 14px 16px; */
+            padding: 14px 16px;
             text-decoration: none;
             font-size: 17px;
         }
@@ -38,7 +42,17 @@
     </style>
 </head>
 
+
+</head>
+
 <body>
+
+
+    <div class="navbar">
+        <a href="#home">Home</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+    </div>
     <div class="page-content-scroll">
         <div class="cover-class cover-bg-1">
         </div>
@@ -60,28 +74,7 @@
         <!--============END TIMER================-->
     </div>
     <!-- toolbar bottom -->
-    <nav class="toolbar">
-        <ul class="toolbar-bottom toolbar-wrap">
-            <li class="toolbar-item">
-                <button type="button" class="toolbar-link text-light" data-toggle="modal" data-target="#ModalRSVP">
-                    <i class="fas fa-envelope-open fa-2x"></i>
-                    RSVP
-                </button>
-            </li>
-            <li class="toolbar-item">
-                <button type="button" class="toolbar-link text-light" data-toggle="modal" data-target="#ModalContact">
-                    <i class="fas fa-phone fa-2x"></i>
-                    CONTACT
-                </button>
-            </li>
-            <li class="toolbar-item">
-                <button type="button" class="toolbar-link text-light" data-toggle="modal" data-target="#ModalMap">
-                    <i class="fas fa-map-marked-alt fa-2x"></i>
-                    LOCATION
-                </button>
-            </li>
-        </ul>
-    </nav>
+
     <!-- end toolbar bottom -->
 
     <!--=========================================START MODAL RSVP==================================================-->
