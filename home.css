@@ -337,7 +337,7 @@
   font-size: 0.35em;
   font-weight: 400;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 992px) {
   .outside {
     position: relative;
     width: 70vmin;
@@ -368,6 +368,7 @@
   }
 
   .inside {
+    text-align: center;
     max-width: 350px;
     position: absolute;
     top: 10px;
