@@ -425,7 +425,7 @@ body {
   font-family: "Quicksand", sans-serif !important;
   background-color: white;
 }
-main {
+.main {
   flex: 1;
   overflow: scroll;
   height: 100vh;
