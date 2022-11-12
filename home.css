@@ -33,30 +33,27 @@
 }
 
 /* toolbar bottom */
-.toolbar {
+/* .toolbar {
   position: fixed;
   overflow: hidden;
   bottom: 0;
   width: 100%;
   float: bottom;
-}
+} */
 
-@media screen and (max-width: 656px) {
-  .toolbar-bottom {
-    float: bottom;
-
-    position: fixed;
-    background: #212529;
-    height: 8vh;
-    bottom: 0vh;
-    left: 0;
-    right: 0;
-    width: 100%;
-    border: 0;
-    z-index: 600;
-    margin-bottom: 0;
-    overflow: hidden;
-  }
+.toolbar-bottom {
+  float: bottom;
+  position: fixed;
+  background: #212529;
+  height: 8vh;
+  bottom: 0vh;
+  left: 0;
+  right: 0;
+  width: 100%;
+  border: 0;
+  z-index: 600;
+  margin-bottom: 0;
+  overflow: hidden;
 }
 
 .toolbar-bottom::before {
