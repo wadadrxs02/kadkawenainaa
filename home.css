@@ -37,21 +37,15 @@ footer {
   position: fixed;
 }
 
-@media only screen and (max-device-width: 480px) {
-  footer {
-    position: static; /* or relative */
-  }
-}
 @media screen and (max-width: 656px) {
   .toolbar-bottom {
     position: fixed;
     background: #212529;
-    height: 8vh;
-    bottom: 0vh;
+    height: 68px;
+    bottom: 0px;
     left: 0;
     right: 0;
     width: 100%;
-
     border: 0;
     z-index: 600;
     margin-bottom: 0;
