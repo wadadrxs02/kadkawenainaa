@@ -5,6 +5,7 @@
     <!-- HTML Meta Tags -->
     <title>Walimatul Urus Ainaa | Faheem </title>
     <meta name="description" content="">
+
     <!-- Facebook Meta Tags -->
     <meta property="og:url" content="http://ainaafaheem.kahwin.me/">
     <meta property="og:type" content="website">
@@ -27,13 +28,62 @@
     <script src="jquery.nicescroll.js"></script>
     <link href="index.css" rel="stylesheet" type="text/css" />
     <!--component-css-->
+
+
     <link rel="icon" href="images/icons/rings.png">
+    <style>
+        .modal {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: #eae0d8;
+            text-align: center;
+            padding: 2em;
+        }
+
+        .hide {
+            display: none;
+        }
+
+        .modal-container {
+            position: fixed;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100vh;
+            background: rgba(0, 0, 0, 0.5);
+        }
+    </style>
 </head>
 
 <body>
+    <!-- <div class="smartphone">
+        <div class="content">
+            <iframe src="home.html" style="width:100vw;height:100vh"></iframe>
+        </div>
+    </div> -->
+
     <div class="main_frame">
         <iframe src="home.html" style="width:100vw;height:100vh" class="size_frame"></iframe>
     </div>
+    <div class="modal-container" id="modal-covid" onclick="hideModal();" onscroll="hideModal();">
+    </div>
+    <!-- <script src=" nicescroll.js">
+        </script> -->
+
 </body>
+
+<script>
+    function play() {
+        let audio = new Audio("https://kadkawenainaa.herokuapp.com/ainaa_song.mp3");
+        audio.play();
+    }
+    function hideModal() {
+        const modal = document.getElementById('modal-covid')
+        modal.classList.add('hide')
+        play()
+    }
+</script>
 
 </html>
