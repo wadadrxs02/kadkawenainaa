@@ -2,13 +2,6 @@
 @import url("http://fonts.cdnfonts.com/css/stadella");
 @import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
 
-.page-content-scroll {
-  position: fixed;
-  top: 0;
-  bottom: 80px;
-  left: 0;
-  right: 0;
-}
 .cover-bg-1 {
   background-image: url(images/covers/girl.png);
 }
@@ -42,6 +35,9 @@
 /* toolbar bottom */
 .toolbar {
   position: fixed;
+  overflow: hidden;
+  bottom: 0;
+  width: 100%;
 }
 .toolbar-bottom {
   position: fixed;
@@ -52,7 +48,7 @@
   width: 100%;
   height: 68px;
   border: 0;
-  /* z-index: 600; */
+  z-index: 600;
   /* padding: 0 10px; */
   margin-bottom: 0;
   overflow: hidden;
