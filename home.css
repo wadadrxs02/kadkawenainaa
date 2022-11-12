@@ -38,11 +38,14 @@ footer {
 }
 
 @media screen and (max-width: 656px) {
+  footer {
+    position: fixed;
+  }
   .toolbar-bottom {
     position: fixed;
     background: #212529;
-    height: 68px;
-    bottom: 0px;
+    height: 8vh;
+    bottom: 0vh;
     left: 0;
     right: 0;
     width: 100%;
